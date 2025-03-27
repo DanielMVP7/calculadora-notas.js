@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Smooch Sans", sans-serif;
+}
+
+#container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18181b;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 14px;
+    gap: 30px;
+    background-color: #262626;
+    color: #fff;
+}
+
+#titulo {
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 3px solid #406ff4;
+}
+
+.input-box {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    gap: 15px;
+}
+
+.input-box label {
+    font-size: 25px;
+}
+
+.input-campo {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #3f3f46;
+    margin-top: 3px;
+}
+
+.input-campo input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+.input-campo input:focus {
+    outline: none;
+}
+
+#bimestre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 30px;
+}
+
+#botoes {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+}
+
+#botoes button {
+    background-color: #406ff4;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 4px 4px 10px #18181b;
+    transition: all .2s;
+}
+
+#botoes button:last-child {
+    background-color: #3f3f46;
+}
+
+#botoes button:hover {
+    box-shadow: none;
+    transform: scale(.98);
+}
+
+#sub-titulo {
+    border-bottom: 2px solid #406ff4;
+    font-size: 30px;
+}
+
+#resultado {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 8px;
+}
+
+#sua-media {
+    font-size: 60px;
+    font-weight: bold;
+    color: #406ff4;
+}
+
+#msg {
+    font-size: 25px;
+    border-bottom: 2px solid;
+}
+
+.aprovado {
+    color: green;
+}
+
+.reprovado {
+    color: red;
+}
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de notas</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <main id="container">
+        <div id="content">
+                <h1 id="titulo">Calculadora de notas</h1>
+            <div class="input-box first">
+                <label for="media-escola">Qual é a média onde você estuda?</label>
+                <div class="input-campo">
+                    <input id="media-escola" type="number">
+                </div>
+            </div>
+            <div id="bimestre">
+                <div class="input-box">
+                    <label for="primeiro-bim">
+                        Nota 1º Bimestre
+                    </label>
+                    <div class="input-campo">
+                        <input id="primeiro-bim" type="number">
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="segundo-bim">
+                        Nota 2º Bimestre
+                    </label>
+                    <div class="input-campo">
+                        <input id="segundo-bim" type="number">
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="terceiro-bim">Nota 3º Bimestre</label>
+                    <div class="input-campo">
+                        <input id="terceiro-bim" type="number">
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="quarto-bim">
+                        Nota 4º Bimestre
+                    </label>
+                    <div class="input-campo">
+                        <input id="quarto-bim" type="number">
+                    </div>
+                </div>
+            </div>
+
+            <div id="botoes">
+                <button id="calcular">Calcular</button>
+                <button id="limpar">Limpar</button>
+            </div>
+            <h2 id="sub-titulo">Resultado Final</h2>
+            <div id="resultado">
+                <span id="sua-media"></span>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
