@@ -33,9 +33,9 @@
 
 .input-box {
     display: flex;
-    justify-content: start;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: baseline;
-    gap: 15px;
 }
 
 .input-box label {
@@ -118,11 +118,21 @@
     border-bottom: 2px solid;
 }
 
-.aprovado {
+/* .aprovado {
     color: green;
 }
 
 .reprovado {
     color: red;
-}
+} */
 
+@media screen and (max-width: 500px) {
+    #content {
+        border-radius: 0;
+        gap: 20px;
+    }
+
+    #titulo {
+        font-size: 40px;
+    }
+}
